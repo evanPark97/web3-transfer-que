@@ -1,0 +1,20 @@
+{   
+    "compilerOptions": {
+      "target": "ES6",
+      "lib": ["ES5", "ES6", "ESNext", "DOM"],
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "outDir": "./dist",
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      // "strict": true,
+      "skipLibCheck": true,
+    },
+    "exclude": [],
+    "include": ["src/**/*.ts"]
+}
+  
